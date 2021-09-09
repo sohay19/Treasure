@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54b2d5e0767978249bc58e4cdc32bcca, type: 3}
+  m_Name: Map1
+  m_EditorClassIdentifier: 
+  SheetName: Assets/5. Excel/WordQuiz1.xlsx
+  WorksheetName: Map1
+  dataArray:
+  - answer: "\uAE4C\uB098\uB9AC\uC561\uC813"
+    childcount1: 0
+    childcount2: 1
+    childcount3: 2
+    childcount4: 3
+    childcount5: 4
+    childcount6: 100
+  - answer: "\uC561\uD654\uC9C8\uC18C"
+    childcount1: 3
+    childcount2: 13
+    childcount3: 23
+    childcount4: 33
+    childcount5: 100
+    childcount6: 100
+  - answer: "\uC774\uAC04\uC9C8"
+    childcount1: 21
+    childcount2: 22
+    childcount3: 23
+    childcount4: 100
+    childcount5: 100
+    childcount6: 100
+  - answer: "\uC774\uC0B0\uD654\uD0C4\uC18C"
+    childcount1: 21
+    childcount2: 31
+    childcount3: 41
+    childcount4: 51
+    childcount5: 61
+    childcount6: 100
+  - answer: "\uC18C\uC6B0\uC8FC"
+    childcount1: 61
+    childcount2: 62
+    childcount3: 63
+    childcount4: 100
+    childcount5: 100
+    childcount6: 100
+  - answer: "\uC6B0\uB514\uB974"
+    childcount1: 62
+    childcount2: 72
+    childcount3: 82
+    childcount4: 100
+    childcount5: 100
+    childcount6: 100
+  - answer: "\uC18C\uC77C\uAC70\uB9AC"
+    childcount1: 33
+    childcount2: 34
+    childcount3: 35
+    childcount4: 36
+    childcount5: 100
+    childcount6: 100
+  - answer: "\uC77C\uAC70\uC218\uC77C\uD22C\uC871"
+    childcount1: 25
+    childcount2: 35
+    childcount3: 45
+    childcount4: 55
+    childcount5: 65
+    childcount6: 75
+  - answer: "\uD22C\uC790\uAC00\uCE58"
+    childcount1: 65
+    childcount2: 66
+    childcount3: 67
+    childcount4: 68
+    childcount5: 101
+    childcount6: 100
+  - answer: "\uAE30\uAC00\uBC14\uC774\uD2B8"
+    childcount1: 57
+    childcount2: 67
+    childcount3: 77
+    childcount4: 87
+    childcount5: 97
+    childcount6: 100
