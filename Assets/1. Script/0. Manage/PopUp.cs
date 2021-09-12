@@ -7,7 +7,7 @@ public class PopUp : MonoBehaviour
 {
     public static PopUp instance;
     GameObject prePopUp;
-    IEnumerator showmsgCoroutine;
+    Coroutine showmsgCoroutine;
 
 
     public static PopUp Instance
@@ -28,7 +28,6 @@ public class PopUp : MonoBehaviour
     {
         if(showmsgCoroutine != null)
         {
-            Debug.Log("프로세스 팝업 스탑");
             StopPopUp();
         }
         Text txt = popup.transform.GetChild(1).GetComponent<Text>();
@@ -39,9 +38,7 @@ public class PopUp : MonoBehaviour
 
     public void ShowTabProcess(GameObject popup, string msg, float time)
     {
-        showmsgCoroutine = ShowMSG(popup, msg, time);
-
-        StartCoroutine(showmsgCoroutine);
+        showmsgCoroutine = StartCoroutine(ShowMSG(popup, msg, time));
     }
 
     IEnumerator ShowMSG(GameObject popup, string msg, float time)
